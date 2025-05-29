@@ -28,7 +28,7 @@ public class EndGameScreen {
     public EndGameScreen(Context context) throws FileNotFoundException {
         this.context = context;
         this.canvas = new Canvas(800, 600);
-        InputStream stream = new FileInputStream(PathFile.getPath("/images/background_2.jpg"));
+        InputStream stream = new FileInputStream(PathFile.getPath("/images/background.jpg"));
         this.image = new Image(stream);
         this.gc = this.canvas.getGraphicsContext2D();
         this.gc.clearRect(0, 0, 800, 600);

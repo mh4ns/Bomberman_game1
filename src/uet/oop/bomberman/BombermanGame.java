@@ -16,7 +16,7 @@ import java.io.InputStream;
 
 public class BombermanGame extends Application {
     public static final String OS_TYPE = System.getProperty("os.name");
-    private static final String TITLE = "Bomberman Game made by group 22";
+    private static final String TITLE = "Bomberman game";
     private static final String ICON_PATH = "/icons/icon.png";
     private static final Size MAP_VIEW_SIZE = new Size(25, 15);
     public static final int SCENE_WIDTH = MAP_VIEW_SIZE.getWidthAsPixel();
